@@ -19,9 +19,15 @@ body{
     font-family: Nunito,Helvetica Neue,Helvetica,Arial,sans-serif;
     font-weight: bold;
     font-size: 16px;
+    height: 100%;
     padding-right: 19px;
     color: #000;
     text-align: center;
+}
+
+.nav-item a:hover{
+    border-top: 1px solid #F36F20;
+    color: #F36F20;
 }
 
 .header-logo{
@@ -60,3 +66,4 @@ body{
     text-decoration: none;
     color: white;
 }
+
